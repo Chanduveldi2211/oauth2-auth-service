@@ -47,7 +47,7 @@
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/Chanduveldi2211/oauth2-auth-service.git
+git clone https://github.com/Pcveldi22/oauth2-auth-service.git
 cd oauth2-auth-service
 docker-compose up -d
 
@@ -99,4 +99,4 @@ oauth2-auth-service/
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-<p align="center">Made with ❤️ by <a href="https://github.com/Chanduveldi2211">Veldi Purna Chandu</a> | Senior Software Engineer</p>
+<p align="center">Made with ❤️ by <a href="https://github.com/Pcveldi22">Pc Veldi</a> | Senior Software Engineer</p>
