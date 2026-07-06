@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: oauth2-auth-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 9000
+
+security:
+  jwt:
+    secret: ${JWT_SECRET}
+    access-token-expiry: 900000
+    refresh-token-expiry: 604800000
+
+logging:
+  level:
+    com.pcveldi: DEBUG
+    org.springframework.security: INFO
